@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	height: 1000px;
+}
+.feedback{
+	background: grey;
+	position: fixed;
+	display: block;
+	width: 350px;
+	height: 120px;
+	top: 150px;
+	left: -350px;
+	transition: all 1s ease;
+}
+
+img{
+	float: left;
+	padding: 10px;
+}
+
+p{
+	color: white;
+	padding-top: 10px;
+}
+
+.feedback::after{
+	content: 'Обратная свять';
+	width: 121px;
+	height: 25px;
+	transform: rotate(-90deg);
+	right: -70px;
+	top: 47px;
+	position: absolute;
+	display: block;
+	background-color: yellow;
+	border-radius: 0 0 20px 20px;
+	text-align: center;
+	font: 16px "sens-serif";
+	line-height: 24px;
+	transition-duration:all 2s linear;
+}
+
+.feedback:hover{
+	left: 1px;
+}

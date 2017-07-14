@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin-top: 20px;
+}
+
+.image_body{
+	float: left;
+	position: relative;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+img{
+	border-radius: 50%;
+	border: 3px solid #D3CBC9;
+}
+
+a{	
+	position: absolute;
+	width: 30px;
+	height: 30px;	
+	border-radius: 50%;
+}
+
+.icon{
+	background: url(../image/social_icons.png);
+}
+
+.fb{
+	background-position: 0px -30px;
+	top: 60px;
+	left: -13px;
+}
+
+.tv{
+	background-position: -30px -30px;
+	top: 28px;
+	left: -5px;
+}
+
+.vk{
+	background-position: -60px -30px;
+	top: 0px;
+	left: 15px;
+}
+
+.mail{
+	background-position: -90px -30px;
+	bottom: -10px;
+	left: 65px;
+}
+
+.fb:hover{
+	background-position: 0 0;
+}
+
+ .tv:hover{
+ 	background-position: -30px 0;
+ }
+
+ .vk:hover{
+ 	background-position: -60px 0;
+ }
+
+ .mail:hover{
+ 	background-position: -90px 0;
+ }

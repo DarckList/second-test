@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+tr td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  background: radial-gradient( circle, blue 50%, transparent 50%);
+}
+
+table {
+	border-collapse: collapse;
+  	position: relative;
+}
+
+td:hover{
+background: radial-gradient( circle, grey 50%, transparent 40%);
+}
+
+table tr:hover{
+	background-color: yellow;
+}
+
+td:hover:after {
+	content: '';
+	background-color: yellow;
+	position: absolute;
+	z-index: -1;
+	width: 50px;
+	top: 0;
+	bottom: 0;
+	
+
+}
+
